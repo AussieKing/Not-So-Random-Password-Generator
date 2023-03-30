@@ -23,8 +23,7 @@ In this case, I followd the basic concept of ASSIGN, CREATE, APPEND.
 ELABORATE MORE HERE.........................
 
 ### Website
-
-ENTER HERE WHEN DEPLOYED....................
+https://aussieking.github.io/Not-So-Random-Password-Generator/
 
 For more information, use the browser's DevTools by typing Ctrl + Shift + I, or Ctrl + Shift + J
 

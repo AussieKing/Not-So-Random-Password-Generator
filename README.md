@@ -32,4 +32,4 @@ For more information, use the browser's DevTools by typing Ctrl + Shift + I, or 
 Our study group (every Saturday), the patient TA and Teachers, and the TA available to us that help us through the week!
 
 ## License
-Open License.
+Under MIT License.

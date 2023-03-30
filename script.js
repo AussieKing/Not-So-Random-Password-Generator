@@ -4,9 +4,26 @@ var generateBtn = document.querySelector("#generate");
 // Write password to the #password input
 function writePassword() {
   var passwordText = document.querySelector("#password");
+  var passwordLength = parseInt(prompt("How long do you want your password to be? (Between 8 and 128 characters)")); 
+  
+    // Checking that the the password length is 8 - 128 characters
+    while (passwordLength < 8 || passwordLength > 128) {
+      passwordLength = parseInt(prompt("Please enter a password length between 8 and 128 characters."));
+    }
+   // here we ask the user to select which types of characters to use (lowercase, uppercase, numbers, or special char)
+  var includeLowercase = confirm("Include lowercase characters?");
+  var includeUppercase = confirm("Include uppercase characters?");
+  var includeNumeric = confirm("Include numeric characters?");
+  var includeSpecial = confirm("Include special characters?");
+
+
+
+
+
+
+
   passwordText.value = password;
 }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 

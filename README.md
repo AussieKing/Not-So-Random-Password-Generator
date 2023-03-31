@@ -11,21 +11,31 @@ Here, you will see how the website looks on larger screens.
 
 This application doesn't require the user to enter the Console in order to see the printed result, keeping in mind the user experience (resulting in a more intuitive and easy to navigate end-result).
 
+The User simply needs to click the Generate Password button to get started.
+
+"""""""
+
+Once that happens, the user is asked to select the criteria they'd like their password to include (length of characters, inclusion of lower/uppercase,numeric or special characters).
+Once the user has selected all criteria, the password will be displayed.
+
+NOTE: as long as the length selected is entered (between 8 and 24 characters) and at least one criteria is selected, the password will generate.
+In this example, the user only selected Special Characters.
+
+''''''''
+
 
 
 ## Development & Deployment
-This website is programmed using using VS Code, and checked on Chrome DevTools to make sure no errors were logged.
+This website is programmed using using VS Code, and checked on Chrome DevTools to make sure that no errors were logged.
 
 
 Given the HTML and CSS framework, we had to create a JavaScript file that met the criteria of the job assigned.
-In this case, I followd the basic concept of ASSIGN, CREATE, APPEND.
-
-ELABORATE MORE HERE.........................
+In this case, I followd the basic concept of ASSIGN (values and actions), CREATE (variables and if scenarios), APPEND (to insert the strings).
 
 ### Website
 https://aussieking.github.io/Not-So-Random-Password-Generator/
 
-For more information, use the browser's DevTools by typing Ctrl + Shift + I, or Ctrl + Shift + J
+For more information, use the browser's DevTools by typing Ctrl + Shift + J on Windows/Linux, or Comm + Opt + J on Mac.
 
 ## Credits
 Our study group (every Saturday), the patient TA and Teachers, and the TA available to us that help us through the week!

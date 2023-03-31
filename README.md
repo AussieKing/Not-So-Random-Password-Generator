@@ -13,16 +13,18 @@ This application doesn't require the user to enter the Console in order to see t
 
 The User simply needs to click the Generate Password button to get started.
 
-"""""""
+![generate-password](https://user-images.githubusercontent.com/126050763/229020717-7575edc8-c0c3-4daa-bf86-4d19b02a67fa.png)
 
 Once that happens, the user is asked to select the criteria they'd like their password to include (length of characters, inclusion of lower/uppercase,numeric or special characters).
+
+![password-criteria](https://user-images.githubusercontent.com/126050763/229020745-fbf8dd4a-cb7f-43d7-95e4-1e8294f54f5e.png)
+
 Once the user has selected all criteria, the password will be displayed.
 
 NOTE: as long as the length selected is entered (between 8 and 24 characters) and at least one criteria is selected, the password will generate.
 In this example, the user only selected Special Characters.
 
-''''''''
-
+![password](https://user-images.githubusercontent.com/126050763/229020763-bf6f3ba5-3fb6-4875-9ac9-7efb54733b4d.png)
 
 
 ## Development & Deployment
